@@ -283,7 +283,7 @@ loadCurrentPrint = function () {
 
          if (NewSource) {
 
-            webpage.page().mainFrame().load(item.source);
+            webpage.page().mainFrame().load("http://www.youtube.com/watch?v=DSHW_iLXTac&feature=BFa&list=SPAFFBA811E3A4FC43&index=1");
             NewSource = false;
             linkHandle = dmz.object.linkHandle(dmz.stance.MediaHandle, item.handle, hil);
             if (!linkHandle) {
