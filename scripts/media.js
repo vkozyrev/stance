@@ -283,7 +283,7 @@ loadCurrentPrint = function () {
 
          if (NewSource) {
 
-            webpage.page().mainFrame().load("https://www.chds.us/coursefiles/NS4755/video/stance_videos/01_border_shooting.flv");
+            webpage.page().mainFrame().load("http://172.20.90.145/~vlad/");
             NewSource = false;
             linkHandle = dmz.object.linkHandle(dmz.stance.MediaHandle, item.handle, hil);
             if (!linkHandle) {
@@ -484,7 +484,6 @@ checkNotifications = function () {
      , objType
      ;
 
-   self.log.error(groupMediaHandles, userMediaHandles);
    groupMediaHandles.forEach(function (mediaHandle) {
 
       if (userMediaHandles.indexOf(mediaHandle) === -1) {
