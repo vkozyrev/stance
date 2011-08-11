@@ -283,7 +283,7 @@ loadCurrentPrint = function () {
 
          if (NewSource) {
 
-            webpage.page().mainFrame().load("http://www.youtube.com/watch?v=DSHW_iLXTac&feature=BFa&list=SPAFFBA811E3A4FC43&index=1");
+            webpage.page().mainFrame().load("https://www.chds.us/coursefiles/NS4755/video/stance_videos/01_border_shooting.flv");
             NewSource = false;
             linkHandle = dmz.object.linkHandle(dmz.stance.MediaHandle, item.handle, hil);
             if (!linkHandle) {
